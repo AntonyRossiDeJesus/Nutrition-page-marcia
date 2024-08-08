@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clip-path-custom {
+  clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%);
+}
+
+.borda-container-sec-tree {
+  border-image: linear-gradient(to bottom left, #ded405 0%, transparent 90%) 1;
+}

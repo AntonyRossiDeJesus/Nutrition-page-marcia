@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 397.8 181.4">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-1, .cls-2, .cls-5 {
+        fill: #fff;
+        font-size: 37.7px;
+      }
+
+      .cls-1, .cls-5 {
+        display: none;
+      }
+
+      .cls-6 {
+        fill: #3b4855;
+      }
+
+      .cls-3 {
+        font-size: 136.3px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Camada_2">
+      <g id="Camada_1-2">
+        <g>
+          <g class="cls-4">
+            <text class="cls-3" transform="translate(12.1 114.1) scale(1 1)"><tspan x="0" y="0">M</tspan></text>
+            <text class="cls-3" transform="translate(120.2 114.1) scale(1 1)"><tspan x="0" y="0">a</tspan></text>
+            <text class="cls-3" transform="translate(184.5 114.1) scale(1 1)"><tspan x="0" y="0">r</tspan></text>
+            <text class="cls-3" transform="translate(226.8 114.1) scale(1 1)"><tspan x="0" y="0">cia</tspan></text>
+          </g>
+          <polygon class="cls-6" points="374 181.4 0 181.4 20.3 123.8 389.3 123.8 374 181.4"/>
+          <g class="cls-4">
+            <text class="cls-2" transform="translate(25.2 162.3) scale(1.2 1)"><tspan x="0" y="0">NUTRICIONISTA</tspan></text>
+            <text class="cls-5" transform="translate(315.8 162.3) scale(1.4 1)"><tspan x="0" y="0">T</tspan></text>
+            <text class="cls-1" transform="translate(345.5 162.3) scale(1.4 1)"><tspan x="0" y="0">A</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
