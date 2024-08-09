@@ -15,6 +15,48 @@ module.exports = {
           "radial-gradient(at top right, #5B2A96 0%, #5B2A96 75%);",
         "container-sec-for-border":
           "linear-gradient(to top, #EEE307, #EEE30780)",
+        "custom-bg-five-mobile": "url('./assets/bg-five-nvv.webp')",
+        "custom-bg-five-descktop": "url('./assets/bg-five-nv.webp')",
+        "custom-bg-six-mobile": "url('./assets/bg-six-nv-mobile.webp')",
+        "custom-bg-six-descktop": "url('./assets/bg-six-nv-desktop.webp')",
+
+        "custom-bg-container1-seven-mobile":
+          "url('./assets/img1-consultorio-mobile.webp')",
+        "custom-bg-container1-seven-descktop":
+          "url('./assets/img1-consultorio-desktop.webp')",
+        "custom-bg-container2-seven-mobile":
+          "url('./assets/img2-consultorio-mobile.webp')",
+        "custom-bg-container2-seven-descktop":
+          "url('./assets/img2-consultorio-desktop.webp')",
+        "custom-bg-container3-seven-mobile":
+          "url('./assets/img3-consultorio-mobile.webp')",
+        "custom-bg-container3-seven-descktop":
+          "url('./assets/img3-consultorio-desktop.webp')",
+        "custom-bg-container4-seven-mobile":
+          "url('./assets/img4-consultorio-mobile.webp')",
+        "custom-bg-container4-seven-descktop":
+          "url('./assets/img4-consultorio-desktop.webp')",
+        "custom-bg-container5-seven-mobile":
+          "url('./assets/img5-consultorio-mobile.webp')",
+        "custom-bg-container5-seven-descktop":
+          "url('./assets/img5-consultorio-desktop.webp')",
+        "custom-bg-container6-seven-mobile":
+          "url('./assets/img6-consultorio-mobile.webp')",
+        "custom-bg-container6-seven-descktop":
+          "url('./assets/img6-consultorio-desktop.webp')",
+        "custom-bg-container7-seven-mobile":
+          "url('./assets/img7-consultorio-mobile.webp')",
+        "custom-bg-container7-seven-descktop":
+          "url('./assets/img7-consultorio-desktop.webp')",
+        "custom-bg-container8-seven-mobile":
+          "url('./assets/img8-consultorio-mobile.webp')",
+        "custom-bg-container8-seven-descktop":
+          "url('./assets/img8-consultorio-desktop.webp')",
+        "custom-bg-container9-seven-mobile":
+          "url('./assets/img9-consultorio-mobile.webp')",
+        "custom-bg-container9-seven-descktop":
+          "url('./assets/img9-consultorio-desktop.webp')",
+
         "custom-icon-whatsap": "url('./assets/icone-whatsapp-branco.svg')",
         "container-hero":
           "radial-gradient(at top left, #D2ADFF40 0%, #D2ADFF10 75%)",

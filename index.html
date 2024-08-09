@@ -6,110 +6,179 @@
     <title>Dr Marcia</title>
 
     <link href="./src/output.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section
-      class="relative flex w-full h-[1000px] lg:h-[800px] justify-center items-end bg-custom-bg-hero-mobile bg-cover bg-center p-4 pb-24"
+      class="relative flex w-full h-[1000px] lg:h-[1080px] justify-center md:justify-end lg:justify-center items-end lg:items-center bg-custom-bg-hero-mobile bg-cover bg-center p-4 pb-24 md:bg-custom-bg-hero-descktop md:bg-right lg:bg-center"
     >
       <div
-        class="bg-container-hero w-full h-80 border rounded-lg text-center flex flex-col justify-center items-center gap-4 p-6"
+        class="container flex justify-center md:justify-end items-center lg:justify-start"
       >
-        <img
-          class="w-[100px] h-[50px]"
-          src="/src/assets/LOGO-MARCIA.svg"
-          alt="logo marcia"
-        />
-        <h1 class="font bold text-white text-2xl">
-          Nutricionista Esportiva no Centro - Florianópolis
-        </h1>
-        <p class="text-[#DED405] text-sm">
-          Especialista em Definição Muscular. Atendimentos apenas no particular.
-        </p>
-
-        <button
-          class="flex justify-center items-center gap-2 py-5 px-12 rounded-md bg-[#BEB500] shadow-custom-button-hero-shadown button-hero text-white"
+        <div
+          class="bg-container-hero w-full md:w-[50%] lg:max-w-[600px] h-80 md:h-[750px] lg:h-[450px] border rounded-lg text-center flex flex-col justify-center items-center gap-4 p-6"
         >
-          FALE COMIGO
-          <i class="bg-custom-icon-whatsap w-4 h-4 bg-center bg-cover"></i>
-        </button>
+          <img
+            class="w-[130px] h-[75px]"
+            src="/src/assets/LOGO-MARCIA.svg"
+            alt="logo marcia"
+          />
+          <h1 class="font bold text-white text-2xl lg:text-4xl">
+            Nutricionista Esportiva <br />
+            no Centro - Florianópolis
+          </h1>
+          <p class="text-[#DED405] text-sm lg:text-lg">
+            Especialista em Definição Muscular.<br />
+            Atendimentos apenas no particular.
+          </p>
+          <button
+            class="flex justify-center items-center gap-2 py-5 px-12 rounded-md bg-[#BEB500] shadow-custom-button-hero-shadown button-hero text-white"
+          >
+            FALE COMIGO
+            <i class="bg-custom-icon-whatsap w-4 h-4 bg-center bg-cover"></i>
+          </button>
+        </div>
       </div>
     </section>
 
     <section
-      class="w-full bg-custom-bg-two-mobile bg-center bg-cover min-h-[1000px] flex flex-col gap-4 justify-center items-center px-4 pb-20"
+      class="w-full bg-custom-bg-two-mobile md:bg-custom-bg-two-descktop bg-center lg:bg-bottom bg-cover min-h-[1000px] flex flex-col gap-4 justify-center items-center px-4 pb-20"
     >
       <div
-        class="relative w-full h-auto border rounded-lg text-center flex flex-col justify-center items-center p-6 gap-4 mt-20 bg-transparent text-white"
+        class="relative w-full lg:w-[1000px] lg:max-w-[1000px] lg:h-[800px] h-auto border rounded-lg text-center flex flex-col justify-center items-center p-6 gap-4 mt-20 bg-transparent text-white"
       >
-        <div class="flex flex-col justify-center items-center gap-4 z-20">
-          <h1 class="text-2xl font-bold">
-            Encontrando obstáculos na sua busca por saúde?
-          </h1>
-          <p class="text-sm mb-10">
-            Eu entendo que alcançar uma vida saudável pode ser difícil devido a
-            diversos obstáculos. Pode ser que você se reconheça em alguns desses
-            desafios:
-          </p>
-          <div
-            class="rounded-full w-12 h-12 bg-custom-gradient-sec-two-icon flex justify-center items-center text-4xl"
-          >
-            <img
-              class="w-[25px] h-[25px]"
-              src="/src/assets/icone-esclamacao.svg"
-              alt=""
-            />
+        <div
+          class="flex flex-col md:flex-row justify-center items-center gap-4 z-20"
+        >
+          <div class="flex flex-col gap-4">
+            <h1 class="text-2xl font-bold lg:text-4xl">
+              Encontrando obstáculos na sua busca por saúde?
+            </h1>
+            <p class="text-sm mb-10 lg:text-base">
+              Eu entendo que alcançar uma vida saudável pode ser difícil devido
+              a diversos obstáculos. Pode ser que você se reconheça em alguns
+              desses desafios:
+            </p>
           </div>
-          <h1 class="text-2xl font-bold">Dificuldade com a rotina corrida</h1>
-          <p class="text-sm">
-            Não sabe o que comer na correria do dia a dia, não tem tempo para
-            ficar horas na cozinha, e acaba pedindo muito lanche?
-          </p>
-          <div class="h-[2px] bg-white w-full mb-10"></div>
-          <div
-            class="rounded-full w-12 h-12 bg-custom-gradient-sec-two-icon flex justify-center items-center text-4xl"
-          >
-            <img
-              class="w-[25px] h-[25px]"
-              src="/src/assets/icone-esclamacao.svg"
-              alt=""
-            />
-          </div>
-          <h1 class="text-2xl font-bold">Dificuldade com a rotina corrida</h1>
-          <p class="text-sm">
-            Não sabe o que comer na correria do dia a dia, não tem tempo para
-            ficar horas na cozinha, e acaba pedindo muito lanche?
-          </p>
-          <div class="h-[2px] bg-white w-full mb-10"></div>
-          <div
-            class="rounded-full w-12 h-12 bg-custom-gradient-sec-two-icon flex justify-center items-center text-4xl"
-          >
-            <img
-              class="w-[25px] h-[25px]"
-              src="/src/assets/icone-esclamacao.svg"
-              alt=""
-            />
-          </div>
-          <h1 class="text-2xl font-bold">Doenças crônicas</h1>
-          <p class="text-sm">
-            Procurando métodos para gerenciar ou evitar doenças como diabetes,
-            pressão alta ou níveis elevados de colesterol?
-          </p>
-          <div class="h-[2px] bg-white w-full mb-10"></div>
 
-          <div
-            class="rounded-full w-12 h-12 bg-custom-gradient-sec-two-icon flex justify-center items-center text-4xl"
-          >
-            <img
-              class="w-[25px] h-[25px]"
-              src="/src/assets/icone-esclamacao.svg"
-              alt=""
-            />
+          <div class="flex flex-col gap-4">
+            <div
+              class="flex flex-col md:flex-row justify-center items-center gap-4"
+            >
+              <div
+                class="rounded-full w-12 h-12 md:w-[70px] md:max-w-[60px] md:h-[60px] bg-custom-gradient-sec-two-icon flex justify-center items-center text-4xl"
+              >
+                <img
+                  class="w-[25px] h-[25px]"
+                  src="/src/assets/icone-esclamacao.svg"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="w-full flex flex-col justify-center items-center gap-2"
+              >
+                <h1 class="text-2xl font-bold">
+                  Dificuldade com a rotina corrida
+                </h1>
+                <p class="text-sm">
+                  Não sabe o que comer na correria do dia a dia, não tem tempo
+                  para ficar horas na cozinha, e acaba pedindo muito lanche?
+                </p>
+                <div class="h-[2px] bg-white w-full mb-10 md:mb-0"></div>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <div
+                class="flex flex-col md:flex-row justify-center items-center gap-4"
+              >
+                <div
+                  class="rounded-full w-12 h-12 md:w-[70px] md:max-w-[60px] md:h-[60px] bg-custom-gradient-sec-two-icon flex justify-center items-center text-4xl"
+                >
+                  <img
+                    class="w-[25px] h-[25px]"
+                    src="/src/assets/icone-esclamacao.svg"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  class="w-full flex flex-col justify-center items-center gap-2"
+                >
+                  <h1 class="text-2xl font-bold">
+                    Dificuldade com a rotina corrida
+                  </h1>
+                  <p class="text-sm">
+                    Não sabe o que comer na correria do dia a dia, não tem tempo
+                    para ficar horas na cozinha, e acaba pedindo muito lanche?
+                  </p>
+                  <div class="h-[2px] bg-white w-full mb-10 md:mb-0"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <div
+                class="flex flex-col md:flex-row justify-center items-center gap-4"
+              >
+                <div
+                  class="rounded-full w-12 h-12 md:w-[70px] md:max-w-[60px] md:h-[60px] bg-custom-gradient-sec-two-icon flex justify-center items-center text-4xl"
+                >
+                  <img
+                    class="w-[25px] h-[25px]"
+                    src="/src/assets/icone-esclamacao.svg"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  class="w-full flex flex-col justify-center items-center gap-2"
+                >
+                  <h1 class="text-2xl font-bold">Doenças crônicas</h1>
+                  <p class="text-sm">
+                    Procurando métodos para gerenciar ou evitar doenças como
+                    diabetes, pressão alta ou níveis elevados de colesterol?
+                  </p>
+                  <div class="h-[2px] bg-white w-full mb-10 md:mb-0"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <div
+                class="flex flex-col md:flex-row justify-center items-center gap-4"
+              >
+                <div
+                  class="rounded-full w-12 h-12 md:w-[70px] md:max-w-[60px] md:h-[60px] bg-custom-gradient-sec-two-icon flex justify-center items-center text-4xl"
+                >
+                  <img
+                    class="w-[25px] h-[25px]"
+                    src="/src/assets/icone-esclamacao.svg"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  class="w-full flex flex-col justify-center items-center gap-2"
+                >
+                  <h1 class="text-2xl font-bold">
+                    Falta de energia e vitalidade
+                  </h1>
+                  <p class="text-sm">
+                    Sente-se constantemente cansado, sem energia para as
+                    atividades do dia a dia?
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <h1 class="text-2xl font-bold">Falta de energia e vitalidade</h1>
-          <p class="text-sm">
-            Sente-se constantemente cansado, sem energia para as atividades do
-            dia a dia?
-          </p>
         </div>
 
         <div
@@ -126,7 +195,7 @@
     </section>
 
     <section
-      class="bg-custom-bg-tree-mobile bg-contain bg-top flex justify-center border-t border-white p-2 text-white"
+      class="bg-custom-bg-tree-mobile md:bg-custom-bg-tree-descktop bg-cover bg-left md:bg-no-repeat md:bg-top flex justify-center border-t border-white p-2 text-white h-auto lg:h-[1132px]"
     >
       <div class="flex flex-col justify-center items-center gap-8 w-full">
         <div
@@ -145,9 +214,11 @@
           Como posso te atender
         </h1>
 
-        <div class="flex flex-col items-center gap-4 w-full">
+        <div
+          class="flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-4 w-full md:w-[750px]"
+        >
           <div
-            class="flex flex-col justify-center items-center gap-2 h-[380px] w-full p-4 bg-[#5B2A96] clip-path-custom shadow-md border borda-container-sec-tree"
+            class="flex flex-col justify-center items-center gap-2 h-[380px] w-full md:w-[48%] p-4 bg-[#5B2A96] clip-path-custom shadow-md border borda-container-sec-tree"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -170,7 +241,7 @@
           </div>
 
           <div
-            class="flex flex-col justify-center items-center gap-2 h-[380px] w-full p-4 bg-[#5B2A96] clip-path-custom shadow-md border borda-container-sec-tree"
+            class="flex flex-col justify-center items-center gap-2 h-[380px] w-full p-4 bg-[#5B2A96] clip-path-custom shadow-md border borda-container-sec-tree md:w-[48%]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +266,7 @@
           </div>
 
           <div
-            class="flex flex-col justify-center items-center gap-2 h-[380px] w-full p-4 bg-[#5B2A96] clip-path-custom shadow-md border borda-container-sec-tree"
+            class="flex flex-col justify-center items-center gap-2 h-[380px] w-full p-4 bg-[#5B2A96] clip-path-custom shadow-md border borda-container-sec-tree md:w-[48%]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +280,9 @@
                 fill="#D2ADFF"
               ></path>
             </svg>
-            <h2 class="text-3xl font-bold">Hipertrofria Muscular</h2>
+            <h2 class="text-3xl font-bold text-center">
+              Hipertrofria Muscular
+            </h2>
             <p class="text-center">
               Nutrição aplicada para definição, diminuir o percentual de gordura
               corporal. Com a estratégia correta, você vai construir músculos
@@ -218,7 +291,7 @@
           </div>
 
           <div
-            class="flex flex-col justify-center items-center gap-2 h-[380px] w-full p-4 bg-[#5B2A96] clip-path-custom shadow-md border borda-container-sec-tree text-center"
+            class="flex flex-col justify-center items-center gap-2 h-[380px] w-full p-4 bg-[#5B2A96] clip-path-custom shadow-md border borda-container-sec-tree text-center md:w-[48%]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -238,30 +311,31 @@
               comida, buscando uma melhorar relação com o alimento.
             </p>
           </div>
-
-          <button
-            class="flex max-w-56 justify-center items-center gap-2 py-5 px-12 rounded-md bg-[#BEB500] shadow-custom-button-hero-shadown button-hero text-white"
-          >
-            FALE COMIGO
-            <i class="bg-custom-icon-whatsap w-4 h-4 bg-center bg-cover"></i>
-          </button>
         </div>
+        <button
+          class="flex max-w-56 justify-center items-center gap-2 py-5 px-12 rounded-md bg-[#BEB500] shadow-custom-button-hero-shadown button-hero text-white"
+        >
+          FALE COMIGO
+          <i class="bg-custom-icon-whatsap w-4 h-4 bg-center bg-cover"></i>
+        </button>
       </div>
     </section>
 
     <section
-      class="w-full min-h-[1200px] flex justify-center py-20 gap-4 bg-custom-bg-for-mobile bg-center bg-contain text-white"
+      class="w-full min-h-[1200px] md:min-h-[1000px] flex justify-center py-20 md:pb-10 gap-4 bg-custom-bg-for-mobile bg-center bg-contain text-white"
     >
-      <div class="p-2 flex flex-col items-center gap-8">
+      <div
+        class="w-full md:w-[750px] lg:w-[1000px] p-2 flex flex-col items-center gap-8"
+      >
         <h1 class="uppercase text-5xl text-center">
           Como será minha <span class="text-[#DED405]">consulta:</span>
         </h1>
 
         <div
-          class="w-full flex flex-col items-center gap-4 p-[2px] rounded-2xl"
+          class="w-full flex flex-col md:flex-row md:flex-wrap items-center justify-center gap-4 p-[2px] rounded-2xl"
         >
           <div
-            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
+            class="w-full md:w-[30%] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
           >
             <div
               class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8"
@@ -296,16 +370,17 @@
                 </g>
               </svg>
               <p class="text-[#DED405] text-2xl font-bold text-center">
-                Atendimento Presencial ou On-line
+                Atendimento Presencial <br />
+                ou On-line
               </p>
             </div>
           </div>
 
           <div
-            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
+            class="w-full md:w-[30%] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
           >
             <div
-              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8"
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 lg:py-12"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -361,42 +436,44 @@
                 </g>
               </svg>
               <p class="text-[#DED405] text-2xl font-bold text-center">
-                Atendimento Presencial ou On-line
+                Avaliação do <br />Consumo Alimentar
               </p>
             </div>
           </div>
 
           <div
-            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
+            class="w-full md:w-[30%] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
           >
             <div
               class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="120"
-                height="80"
-                viewBox="0 0 199 199"
-                fill="none"
-              >
-                <mask
-                  id="mask0_74_20"
-                  style="mask-type: alpha"
-                  maskUnits="userSpaceOnUse"
-                  x="0"
-                  y="0"
-                  width="199"
-                  height="199"
+              <div class="w-[74px] h-[85px] md:h-[110px] flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="120"
+                  height="80"
+                  viewBox="0 0 199 199"
+                  fill="none"
                 >
-                  <rect width="199" height="199" fill="#DED405"></rect>
-                </mask>
-                <g mask="url(#mask0_74_20)">
-                  <path
-                    d="M174.125 132.666H165.833V157.334C165.833 160.513 165.108 163.276 163.657 165.626C162.206 167.975 160.305 169.91 157.956 171.43C155.607 172.95 153.016 173.779 150.183 173.917C147.35 174.056 144.551 173.434 141.787 172.052L25.7041 114.425C22.5256 112.905 20.2109 110.797 18.7598 108.102C17.3088 105.407 16.5833 102.609 16.5833 99.7069C16.5833 96.8049 17.3088 93.9719 18.7598 91.208C20.2109 88.4441 22.5256 86.3021 25.7041 84.782L141.787 26.7403C144.551 25.3583 147.35 24.771 150.183 24.9783C153.016 25.1856 155.607 26.0493 157.956 27.5694C160.305 29.0896 162.206 31.0243 163.657 33.3736C165.108 35.7229 165.833 38.4868 165.833 41.6653V66.333H174.125V82.9163H140.958V66.333H149.25V42.0799L112.767 60.1142C116.498 66.0566 119.365 72.3444 121.369 78.9778C123.373 85.6111 124.375 92.4517 124.375 99.4997C124.375 106.548 123.373 113.457 121.369 120.229C119.365 127 116.429 133.357 112.559 139.3L149.043 157.334V132.666H140.958V116.083H174.125V132.666ZM97.427 131.63C100.744 126.931 103.3 121.853 105.097 116.394C106.893 110.935 107.792 105.304 107.792 99.4997C107.792 93.6955 106.893 88.1332 105.097 82.8127C103.3 77.4922 100.813 72.4135 97.6343 67.5767L33.1666 99.4997L97.427 131.63Z"
-                    fill="#DED405"
-                  ></path>
-                </g>
-              </svg>
+                  <mask
+                    id="mask0_74_20"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="199"
+                    height="199"
+                  >
+                    <rect width="199" height="199" fill="#DED405"></rect>
+                  </mask>
+                  <g mask="url(#mask0_74_20)">
+                    <path
+                      d="M174.125 132.666H165.833V157.334C165.833 160.513 165.108 163.276 163.657 165.626C162.206 167.975 160.305 169.91 157.956 171.43C155.607 172.95 153.016 173.779 150.183 173.917C147.35 174.056 144.551 173.434 141.787 172.052L25.7041 114.425C22.5256 112.905 20.2109 110.797 18.7598 108.102C17.3088 105.407 16.5833 102.609 16.5833 99.7069C16.5833 96.8049 17.3088 93.9719 18.7598 91.208C20.2109 88.4441 22.5256 86.3021 25.7041 84.782L141.787 26.7403C144.551 25.3583 147.35 24.771 150.183 24.9783C153.016 25.1856 155.607 26.0493 157.956 27.5694C160.305 29.0896 162.206 31.0243 163.657 33.3736C165.108 35.7229 165.833 38.4868 165.833 41.6653V66.333H174.125V82.9163H140.958V66.333H149.25V42.0799L112.767 60.1142C116.498 66.0566 119.365 72.3444 121.369 78.9778C123.373 85.6111 124.375 92.4517 124.375 99.4997C124.375 106.548 123.373 113.457 121.369 120.229C119.365 127 116.429 133.357 112.559 139.3L149.043 157.334V132.666H140.958V116.083H174.125V132.666ZM97.427 131.63C100.744 126.931 103.3 121.853 105.097 116.394C106.893 110.935 107.792 105.304 107.792 99.4997C107.792 93.6955 106.893 88.1332 105.097 82.8127C103.3 77.4922 100.813 72.4135 97.6343 67.5767L33.1666 99.4997L97.427 131.63Z"
+                      fill="#DED405"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
               <p class="text-[#DED405] text-2xl font-bold text-center">
                 Avaliação <br />
                 Física
@@ -405,7 +482,7 @@
           </div>
 
           <div
-            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
+            class="w-full md:w-[30%] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
           >
             <div
               class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8"
@@ -435,17 +512,19 @@
                   ></path>
                 </g>
               </svg>
+
               <p class="text-[#DED405] text-2xl font-bold text-center">
-                Avaliação de Exames Laboratoriais
+                Avaliação de Exames <br />
+                Laboratoriais
               </p>
             </div>
           </div>
 
           <div
-            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
+            class="w-full md:w-[30%] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
           >
             <div
-              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8"
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 lg:py-12"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -473,189 +552,213 @@
                 </g>
               </svg>
               <p class="text-[#DED405] text-2xl font-bold text-center">
-                Plano Alimentar Personalizado
+                Plano Alimentar <br />
+                Personalizado
               </p>
             </div>
           </div>
 
           <div
-            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
+            class="w-full md:w-[30%] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
           >
             <div
-              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8"
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 lg:py-[45px]"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="120"
-                height="80"
-                viewBox="0 0 273 265"
-                fill="none"
-              >
-                <rect
-                  x="6.5"
-                  y="45.5"
-                  width="135"
-                  height="178"
-                  rx="26.5"
-                  stroke="#DED405"
-                  stroke-width="13"
-                ></rect>
-                <path
-                  d="M43 6.5H105C108.59 6.5 111.5 9.41015 111.5 13V38.5H36.5V13C36.5 9.41015 39.4101 6.5 43 6.5Z"
-                  stroke="#DED405"
-                  stroke-width="13"
-                ></path>
-                <rect x="88" y="4" width="6" height="35" fill="#DED405"></rect>
-                <rect x="71" y="4" width="6" height="35" fill="#DED405"></rect>
-                <rect x="54" y="4" width="6" height="35" fill="#DED405"></rect>
-                <rect
-                  x="90"
-                  y="86"
-                  width="9"
-                  height="52"
-                  rx="3"
-                  transform="rotate(-90 90 86)"
-                  fill="#DED405"
-                ></rect>
-                <rect
-                  x="5"
-                  y="198"
-                  width="9"
-                  height="137"
-                  rx="3"
-                  transform="rotate(-90 5 198)"
-                  fill="#DED405"
-                ></rect>
-                <rect
-                  x="2"
-                  y="86"
-                  width="9"
-                  height="57"
-                  rx="3"
-                  transform="rotate(-90 2 86)"
-                  fill="#DED405"
-                ></rect>
-                <circle cx="75" cy="82" r="5" fill="#DED405"></circle>
-                <mask
-                  id="mask0_77_62"
-                  style="mask-type: alpha"
-                  maskUnits="userSpaceOnUse"
-                  x="31"
-                  y="94"
-                  width="92"
-                  height="92"
+              <div class="w-[74px] h-[85px]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="80"
+                  viewBox="0 0 273 265"
+                  fill="none"
                 >
                   <rect
+                    x="6.5"
+                    y="45.5"
+                    width="135"
+                    height="178"
+                    rx="26.5"
+                    stroke="#DED405"
+                    stroke-width="13"
+                  ></rect>
+                  <path
+                    d="M43 6.5H105C108.59 6.5 111.5 9.41015 111.5 13V38.5H36.5V13C36.5 9.41015 39.4101 6.5 43 6.5Z"
+                    stroke="#DED405"
+                    stroke-width="13"
+                  ></path>
+                  <rect
+                    x="88"
+                    y="4"
+                    width="6"
+                    height="35"
+                    fill="#DED405"
+                  ></rect>
+                  <rect
+                    x="71"
+                    y="4"
+                    width="6"
+                    height="35"
+                    fill="#DED405"
+                  ></rect>
+                  <rect
+                    x="54"
+                    y="4"
+                    width="6"
+                    height="35"
+                    fill="#DED405"
+                  ></rect>
+                  <rect
+                    x="90"
+                    y="86"
+                    width="9"
+                    height="52"
+                    rx="3"
+                    transform="rotate(-90 90 86)"
+                    fill="#DED405"
+                  ></rect>
+                  <rect
+                    x="5"
+                    y="198"
+                    width="9"
+                    height="137"
+                    rx="3"
+                    transform="rotate(-90 5 198)"
+                    fill="#DED405"
+                  ></rect>
+                  <rect
+                    x="2"
+                    y="86"
+                    width="9"
+                    height="57"
+                    rx="3"
+                    transform="rotate(-90 2 86)"
+                    fill="#DED405"
+                  ></rect>
+                  <circle cx="75" cy="82" r="5" fill="#DED405"></circle>
+                  <mask
+                    id="mask0_77_62"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
                     x="31"
                     y="94"
                     width="92"
                     height="92"
-                    fill="#D9D9D9"
-                  ></rect>
-                </mask>
-                <g mask="url(#mask0_77_62)">
-                  <path
-                    d="M68.1083 161.1L87.9458 137.333H72.6125L75.3917 115.579L57.6625 141.167H70.9833L68.1083 161.1ZM58.3333 175.667L62.1667 148.833H43L77.5 99H85.1667L81.3333 129.667H104.333L66 175.667H58.3333Z"
-                    fill="#DED405"
-                  ></path>
-                </g>
-                <mask
-                  id="mask1_77_62"
-                  style="mask-type: alpha"
-                  maskUnits="userSpaceOnUse"
-                  x="40"
-                  y="31"
-                  width="233"
-                  height="234"
-                >
-                  <rect
-                    x="160.328"
+                  >
+                    <rect
+                      x="31"
+                      y="94"
+                      width="92"
+                      height="92"
+                      fill="#D9D9D9"
+                    ></rect>
+                  </mask>
+                  <g mask="url(#mask0_77_62)">
+                    <path
+                      d="M68.1083 161.1L87.9458 137.333H72.6125L75.3917 115.579L57.6625 141.167H70.9833L68.1083 161.1ZM58.3333 175.667L62.1667 148.833H43L77.5 99H85.1667L81.3333 129.667H104.333L66 175.667H58.3333Z"
+                      fill="#DED405"
+                    ></path>
+                  </g>
+                  <mask
+                    id="mask1_77_62"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
+                    x="40"
                     y="31"
-                    width="153"
-                    height="177"
-                    transform="rotate(42.7157 160.328 31)"
-                    fill="#BBB200"
-                  ></rect>
-                </mask>
-                <g mask="url(#mask1_77_62)">
-                  <path
-                    d="M102.33 201.97L105.397 188.106L140.552 195.883L159.174 111.709L124.019 103.931L127.086 90.0673L141.253 92.9417L144.32 79.0776L165.116 83.6784L168.485 69.6215L182.349 72.6886L179.475 86.855L200.271 91.4558L197.204 105.32L211.261 108.689L208.194 122.553L173.039 114.776L154.417 198.951L189.572 206.728L186.505 220.592L172.338 217.718L169.271 231.582L148.475 226.981L145.106 241.038L131.241 237.971L134.116 223.804L113.32 219.204L116.387 205.34L102.33 201.97Z"
-                    fill="#BBB200"
-                  ></path>
-                </g>
-              </svg>
+                    width="233"
+                    height="234"
+                  >
+                    <rect
+                      x="160.328"
+                      y="31"
+                      width="153"
+                      height="177"
+                      transform="rotate(42.7157 160.328 31)"
+                      fill="#BBB200"
+                    ></rect>
+                  </mask>
+                  <g mask="url(#mask1_77_62)">
+                    <path
+                      d="M102.33 201.97L105.397 188.106L140.552 195.883L159.174 111.709L124.019 103.931L127.086 90.0673L141.253 92.9417L144.32 79.0776L165.116 83.6784L168.485 69.6215L182.349 72.6886L179.475 86.855L200.271 91.4558L197.204 105.32L211.261 108.689L208.194 122.553L173.039 114.776L154.417 198.951L189.572 206.728L186.505 220.592L172.338 217.718L169.271 231.582L148.475 226.981L145.106 241.038L131.241 237.971L134.116 223.804L113.32 219.204L116.387 205.34L102.33 201.97Z"
+                      fill="#BBB200"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
               <p class="text-[#DED405] text-2xl font-bold text-center">
-                Prescrição de Suplementos
+                Prescrição de <br />
+                Suplementos
               </p>
             </div>
           </div>
 
           <div
-            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
+            class="w-full md:w-[30%] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
           >
             <div
               class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="120"
-                height="80"
-                viewBox="0 0 199 190"
-                fill="none"
-              >
-                <mask
-                  id="mask0_74_14"
-                  style="mask-type: alpha"
-                  maskUnits="userSpaceOnUse"
-                  x="0"
-                  y="0"
-                  width="176"
-                  height="176"
+              <div class="w-[74px] h-[85px] md:h-[110px] flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="140"
+                  height="100"
+                  viewBox="0 0 199 190"
+                  fill="none"
                 >
-                  <rect
-                    x="0.143066"
-                    width="175.827"
-                    height="175.827"
-                    fill="#DED405"
-                  ></rect>
-                </mask>
-                <g mask="url(#mask0_74_14)">
-                  <path
-                    d="M36.7736 153.848C32.7442 153.848 29.2948 152.414 26.4254 149.544C23.556 146.675 22.1213 143.226 22.1213 139.196V36.6305C22.1213 32.6011 23.556 29.1518 26.4254 26.2824C29.2948 23.413 32.7442 21.9783 36.7736 21.9783H139.339C143.369 21.9783 146.818 23.413 149.687 26.2824C152.557 29.1518 153.992 32.6011 153.992 36.6305V85.7155C151.672 84.6166 149.291 83.6703 146.849 82.8767C144.407 82.083 141.903 81.503 139.339 81.1367V36.6305H36.7736V139.196H81.0966C81.4629 141.882 82.0429 144.447 82.8366 146.889C83.6302 149.331 84.5765 151.651 85.6754 153.848H36.7736ZM36.7736 139.196V36.6305V81.1367V80.5872V139.196ZM51.4258 124.544H81.2798C81.6461 121.98 82.2261 119.477 83.0197 117.035C83.8134 114.593 84.6986 112.212 85.6754 109.892H51.4258V124.544ZM51.4258 95.2395H96.1152C100.022 91.5764 104.388 88.5239 109.211 86.0818C114.034 83.6398 119.192 81.9914 124.687 81.1367V80.5872H51.4258V95.2395ZM51.4258 65.935H124.687V51.2828H51.4258V65.935Z"
-                    fill="#DED405"
-                  ></path>
-                </g>
-                <mask
-                  id="mask1_74_14"
-                  style="mask-type: alpha"
-                  maskUnits="userSpaceOnUse"
-                  x="73"
-                  y="64"
-                  width="127"
-                  height="127"
-                >
-                  <rect
+                  <mask
+                    id="mask0_74_14"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="176"
+                    height="176"
+                  >
+                    <rect
+                      x="0.143066"
+                      width="175.827"
+                      height="175.827"
+                      fill="#DED405"
+                    ></rect>
+                  </mask>
+                  <g mask="url(#mask0_74_14)">
+                    <path
+                      d="M36.7736 153.848C32.7442 153.848 29.2948 152.414 26.4254 149.544C23.556 146.675 22.1213 143.226 22.1213 139.196V36.6305C22.1213 32.6011 23.556 29.1518 26.4254 26.2824C29.2948 23.413 32.7442 21.9783 36.7736 21.9783H139.339C143.369 21.9783 146.818 23.413 149.687 26.2824C152.557 29.1518 153.992 32.6011 153.992 36.6305V85.7155C151.672 84.6166 149.291 83.6703 146.849 82.8767C144.407 82.083 141.903 81.503 139.339 81.1367V36.6305H36.7736V139.196H81.0966C81.4629 141.882 82.0429 144.447 82.8366 146.889C83.6302 149.331 84.5765 151.651 85.6754 153.848H36.7736ZM36.7736 139.196V36.6305V81.1367V80.5872V139.196ZM51.4258 124.544H81.2798C81.6461 121.98 82.2261 119.477 83.0197 117.035C83.8134 114.593 84.6986 112.212 85.6754 109.892H51.4258V124.544ZM51.4258 95.2395H96.1152C100.022 91.5764 104.388 88.5239 109.211 86.0818C114.034 83.6398 119.192 81.9914 124.687 81.1367V80.5872H51.4258V95.2395ZM51.4258 65.935H124.687V51.2828H51.4258V65.935Z"
+                      fill="#DED405"
+                    ></path>
+                  </g>
+                  <mask
+                    id="mask1_74_14"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
                     x="73"
                     y="64"
-                    width="126.008"
-                    height="126.008"
-                    fill="#DED405"
-                  ></rect>
-                </mask>
-                <g mask="url(#mask1_74_14)">
-                  <circle
-                    cx="130.374"
-                    cy="130.374"
-                    r="34.1247"
-                    stroke="#DED405"
-                    stroke-width="6"
-                  ></circle>
-                  <path
-                    d="M128.263 149.499V144.662C126.35 144.212 124.698 143.349 123.309 142.074C121.919 140.8 120.899 139 120.25 136.675L124.256 134.987C124.798 136.787 125.601 138.156 126.666 139.093C127.73 140.031 129.129 140.5 130.862 140.5C132.342 140.5 133.596 140.153 134.625 139.459C135.653 138.765 136.168 137.687 136.168 136.225C136.168 134.912 135.771 133.871 134.977 133.103C134.183 132.334 132.342 131.462 129.454 130.487C126.35 129.475 124.22 128.265 123.065 126.859C121.91 125.453 121.332 123.737 121.332 121.712C121.332 119.275 122.09 117.381 123.606 116.031C125.122 114.681 126.675 113.912 128.263 113.725V109H132.594V113.725C134.399 114.025 135.888 114.709 137.061 115.778C138.234 116.847 139.092 118.15 139.633 119.687L135.626 121.487C135.193 120.287 134.58 119.387 133.786 118.787C132.991 118.187 131.909 117.887 130.537 117.887C128.949 117.887 127.739 118.253 126.909 118.984C126.079 119.715 125.664 120.625 125.664 121.712C125.664 122.95 126.205 123.925 127.288 124.637C128.371 125.35 130.248 126.1 132.919 126.887C135.41 127.637 137.296 128.828 138.577 130.459C139.859 132.09 140.499 133.975 140.499 136.112C140.499 138.775 139.741 140.8 138.225 142.187C136.709 143.574 134.832 144.437 132.594 144.774V149.499H128.263Z"
-                    fill="#DED405"
-                  ></path>
-                </g>
-              </svg>
+                    width="127"
+                    height="127"
+                  >
+                    <rect
+                      x="73"
+                      y="64"
+                      width="126.008"
+                      height="126.008"
+                      fill="#DED405"
+                    ></rect>
+                  </mask>
+                  <g mask="url(#mask1_74_14)">
+                    <circle
+                      cx="130.374"
+                      cy="130.374"
+                      r="34.1247"
+                      stroke="#DED405"
+                      stroke-width="6"
+                    ></circle>
+                    <path
+                      d="M128.263 149.499V144.662C126.35 144.212 124.698 143.349 123.309 142.074C121.919 140.8 120.899 139 120.25 136.675L124.256 134.987C124.798 136.787 125.601 138.156 126.666 139.093C127.73 140.031 129.129 140.5 130.862 140.5C132.342 140.5 133.596 140.153 134.625 139.459C135.653 138.765 136.168 137.687 136.168 136.225C136.168 134.912 135.771 133.871 134.977 133.103C134.183 132.334 132.342 131.462 129.454 130.487C126.35 129.475 124.22 128.265 123.065 126.859C121.91 125.453 121.332 123.737 121.332 121.712C121.332 119.275 122.09 117.381 123.606 116.031C125.122 114.681 126.675 113.912 128.263 113.725V109H132.594V113.725C134.399 114.025 135.888 114.709 137.061 115.778C138.234 116.847 139.092 118.15 139.633 119.687L135.626 121.487C135.193 120.287 134.58 119.387 133.786 118.787C132.991 118.187 131.909 117.887 130.537 117.887C128.949 117.887 127.739 118.253 126.909 118.984C126.079 119.715 125.664 120.625 125.664 121.712C125.664 122.95 126.205 123.925 127.288 124.637C128.371 125.35 130.248 126.1 132.919 126.887C135.41 127.637 137.296 128.828 138.577 130.459C139.859 132.09 140.499 133.975 140.499 136.112C140.499 138.775 139.741 140.8 138.225 142.187C136.709 143.574 134.832 144.437 132.594 144.774V149.499H128.263Z"
+                      fill="#DED405"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
               <p class="text-[#DED405] text-2xl font-bold text-center">
                 Lista de <br />
                 Compras
@@ -664,7 +767,7 @@
           </div>
 
           <div
-            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
+            class="w-full md:w-[30%] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
           >
             <div
               class="w-full h-auto flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8"
@@ -713,18 +816,19 @@
                 </svg>
               </div>
               <h2 class="text-[#DED405] text-2xl font-bold text-center">
-                Acesso ao Aplicativo de Celular
+                Acesso ao Aplicativo <br />
+                de Celular
               </h2>
             </div>
           </div>
 
           <div
-            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
+            class="w-full md:w-[30%] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl"
           >
             <div
               class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8"
             >
-              <div class="w-[74px] h-[85px]">
+              <div class="w-[74px] h-[85px] md:h-[110px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   id="Camada_2"
@@ -754,12 +858,536 @@
                 </svg>
               </div>
               <p class="text-[#DED405] text-2xl font-bold text-center">
-                Suporte pelo Whatsapp
+                Suporte pelo <br />
+                Whatsapp
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section
+      class="w-full flex items-center justify-center gap-4 p-2 h-auto bg-custom-bg-five-mobile md:bg-custom-bg-five-descktop bg-bottom bg-cover text-white pt-20"
+    >
+      <div class="flex flex-col justify-center items-center gap-8">
+        <h1 class="text-3xl text-center">
+          CONFIRA OS DEPOIMENTOS DE PACIENTES QUE TIVERAM SUAS
+          <span class="text-[#DED405]">VIDAS TRANSFORMADAS:</span>
+        </h1>
+
+        <div
+          class="flex md:w-[380px] lg:w-[1000px] flex-col lg:flex-row justify-center gap-8"
+        >
+          <div
+            class="w-full flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl min-h-[430px] lg:max-h-[550px] lg:h-[550px]"
+          >
+            <div
+              class="w-full flex flex-col items-center justify-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 min-h-[430px] lg:max-h-[550px] lg:h-[550px]"
+            >
+              <p class="text-sm text-center">
+                5 estrelas é pouco para exemplificar o que é o trabalho da
+                Mari.É literalmente uma experiência a consulta com ela. É tão
+                individualizado e humanizado o atendimento, que tu acredita ser
+                o paciente mais especial. HahaMas além de um atendimento
+                sensacional, um bom trabalho é feito de bons resultados, e ser
+                paciente da Mari é a certeza de um excelente resultado. Não me
+                canso de exaltar essa nutri e o quanto nossa trajetória juntas,
+                me trouxe bons frutos.Ter a Mari como nutri é a tranquilidade de
+                estar bem assistida em todos os momentos e ter pão na dieta de
+                brinde Agora me diz se esse abs não foi esculpido por Deus? Foi
+                não, foi pela Mari!
+              </p>
+
+              <img
+                class="rounded-full w-12 h-12"
+                src="/src/assets/depo-01.png"
+                alt="imagem depoimento 1"
+              />
+
+              <p class="font-bold">Bruna Linck</p>
+            </div>
+          </div>
+
+          <div
+            class="w-full max-h-[430px] h-[430px] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl lg:max-h-[550px] lg:h-[550px]"
+          >
+            <div
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 h-[430px] max-h-[430px] lg:max-h-[550px] lg:h-[550px] justify-center"
+            >
+              <p class="text-sm text-center">
+                Excelente profissional... super atenciosa no pré e pós
+                atendimento, muito qualificada sobre o assunto. Sem contar o
+                ambiente que é muito aconchegante.
+              </p>
+
+              <img
+                class="rounded-full w-12 h-12"
+                src="/src/assets/depo-02.png"
+                alt="imagem depoimento 1"
+              />
+
+              <p class="font-bold">Vitor Cloque</p>
+            </div>
+          </div>
+
+          <div
+            class="w-full max-h-[430px] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl h-[430px] lg:max-h-[550px] lg:h-[550px]"
+          >
+            <div
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 h-[430px] justify-center lg:max-h-[550px] lg:h-[550px]"
+            >
+              <p class="text-sm text-center">
+                Primeiramente gostaria de te agradecer por ter feito tanto por
+                mim! Você é uma profissional incrível, maravilhosa, super
+                atenciosa e dedicada.
+              </p>
+
+              <img
+                class="rounded-full w-12 h-12"
+                src="/src/assets/depo-03.png"
+                alt="imagem depoimento 1"
+              />
+
+              <p class="font-bold">Mikaela Saraiva</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex md:w-[380px] lg:w-[1000px] flex-col lg:flex-row justify-center gap-8"
+        >
+          <div
+            class="w-full max-h-[430px] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl h-[430px]"
+          >
+            <div
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 h-[430px] justify-center"
+            >
+              <p class="text-sm text-center">
+                Bom dia… eu não tive o prazer de fazer a consulta pessoalmente.
+                Minha consulta foi on-line e mesmo assim foi ótima! Mariana
+                extremamente atenciosa e a dieta é montada de acordo com a
+                realidade do paciente. Recomendo muito.
+              </p>
+
+              <img
+                class="rounded-full w-12 h-12"
+                src="/src/assets/depo-04.png"
+                alt="imagem depoimento 1"
+              />
+
+              <p class="font-bold">Mariane Sagaz</p>
+            </div>
+          </div>
+
+          <div
+            class="w-full max-h-[430px] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl h-[430px]"
+          >
+            <div
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 h-[430px] justify-center"
+            >
+              <p class="text-sm text-center">
+                Excelente profissional! Atenciosa nas minhas necessidades, fez a
+                dieta conforme meus gostos e meus hábitos e tem me acompanhado
+                com frequência (além das consultas) para que eu não perca o
+                ritmo. Indico muitíssimo!!!
+              </p>
+
+              <img
+                class="rounded-full w-12 h-12"
+                src="/src/assets/depo-05.png"
+                alt="imagem depoimento 1"
+              />
+
+              <p class="font-bold">Carina Cristina</p>
+            </div>
+          </div>
+
+          <div
+            class="w-full max-h-[430px] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl h-[430px]"
+          >
+            <div
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 h-[430px] justify-center"
+            >
+              <p class="text-sm text-center">
+                Mari é atenciosa, positiva, celebra cada uma das novas pequenas
+                conquistas nesse processo de reeducação alimentar e esta sempre
+                disponível para esclarecer nossas duvidas ou ouvir sobre nossas
+                dificuldades e encaminhar soluções.
+              </p>
+
+              <img
+                class="rounded-full w-12 h-12"
+                src="/src/assets/depo-06.png"
+                alt="imagem depoimento 1"
+              />
+
+              <p class="font-bold">Aline França</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex md:w-[380px] lg:w-[1000px] flex-col lg:flex-row justify-center gap-8"
+        >
+          <div
+            class="w-full max-h-[430px] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl h-[430px]"
+          >
+            <div
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 h-[430px] justify-center"
+            >
+              <p class="text-sm text-center">
+                Iniciei meu acompanhamento com a Mari no começo de dezembro/22,
+                e nunca foi tão fácil seguir um plano alimentar! A Mari
+                construiu um plano alimentar de acordo com os alimentos que eu
+                já estava acostumada, acrescentou outros e me deu várias dicas.
+              </p>
+
+              <img
+                class="rounded-full w-12 h-12"
+                src="/src/assets/depo-07.png"
+                alt="imagem depoimento 1"
+              />
+
+              <p class="font-bold">Karina Sato</p>
+            </div>
+          </div>
+
+          <div
+            class="w-full max-h-[430px] flex flex-col items-center gap-4 p-[2px] bg-container-sec-for-border rounded-2xl h-[430px]"
+          >
+            <div
+              class="w-full flex flex-col items-center gap-4 bg-container-sec-for m-[2px] rounded-2xl px-4 py-8 h-[430px] justify-center"
+            >
+              <p class="text-sm text-center">
+                A Nutri Mariana me ajudou muito no ganho de massa muscular e na
+                manutenção do peso. É acolhedora e uma boa ouvinte, dessa forma,
+                ela busca estratégias para atender cada paciente de forma única.
+                Ah! Ela é muito alegre tb, então, as consultas se tornam muito
+                leves e com uma energia incrível. É aquela nutricionista para
+                vida toda! Super indico!
+              </p>
+
+              <img
+                class="rounded-full w-12 h-12"
+                src="/src/assets/depo-08.png"
+                alt="imagem depoimento 1"
+              />
+
+              <p class="font-bold">Katarina Gondim</p>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="flex max-w-56 justify-center items-center gap-2 py-5 px-12 rounded-md bg-[#BEB500] shadow-custom-button-hero-shadown button-hero text-white"
+        >
+          FALE COMIGO
+          <i class="bg-custom-icon-whatsap w-4 h-4 bg-center bg-cover"></i>
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="w-full min-h-[1080px] p-2 flex justify-center md:justify-end items-center md:items-start lg:justify-center bg-custom-bg-six-mobile md:bg-custom-bg-six-descktop bg-top md:bg-center bg-cover md:bg-cover bg-no-repeat"
+    >
+      <div
+        class="bg-container-hero w-full lg:w-[500px] md:w-[50%] h-80 md:h-[650px] lg:h-[500px] border rounded-lg text-center flex flex-col justify-center items-center gap-4 p-6 mt-[450px] md:mt-20 lg:-mr-96"
+      >
+        <img
+          class="w-[150px] md:w-[200px] h-[60px] md:h-[75px]"
+          src="/src/assets/LOGO-MARCIA.svg"
+          alt="logo marcia"
+        />
+        <h1 class="font bold text-white text-2xl">
+          AGENDE JÁ A SUA <br /><span class="text-[#DED405] font-bold text-4xl"
+            >CONSULTA </span
+          ><br />
+          CLICANDO NO BOTÃO <br />
+          ABAIXO
+        </h1>
+
+        <button
+          class="flex justify-center items-center gap-2 py-5 px-12 rounded-md bg-[#BEB500] shadow-custom-button-hero-shadown button-hero text-white"
+        >
+          AGENDAR CONSULTA
+          <i class="bg-custom-icon-whatsap w-4 h-4 bg-center bg-cover"></i>
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="w-full flex justify-center items-center p-2 gap-4 py-20 bg-[#BFB500]"
+    >
+      <div class="w-full flex flex-col justify-center items-center gap-14">
+        <div class="text-center">
+          <h2 class="text-3xl text-[#6D38AD]">CONHEÇA O</h2>
+          <h1 class="text-5xl text-[#6D38AD] italic uppercase font-bold">
+            consultório
+          </h1>
+        </div>
+
+        <div
+          class="flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-4 w-full min-h-[1000px]"
+        >
+          <div
+            class="w-full md:w-[48%] lg:w-[30%] h-[480px] bg-custom-bg-container1-seven-mobile xl:bg-custom-bg-container1-seven-descktop bg-center bg-cover"
+          ></div>
+
+          <div
+            class="w-full md:w-[48%] lg:w-[30%] h-[480px] bg-custom-bg-container2-seven-mobile xl:bg-custom-bg-container2-seven-descktop bg-center bg-cover"
+          ></div>
+
+          <div
+            class="w-full md:w-[48%] lg:w-[30%] h-[480px] bg-custom-bg-container3-seven-mobile xl:bg-custom-bg-container3-seven-descktop bg-center bg-cover"
+          ></div>
+
+          <div
+            class="w-full md:w-[48%] lg:w-[30%] h-[480px] bg-custom-bg-container4-seven-mobile xl:bg-custom-bg-container4-seven-descktop bg-center bg-cover"
+          ></div>
+
+          <div
+            class="w-full md:w-[48%] lg:w-[30%] h-[480px] bg-custom-bg-container5-seven-mobile xl:bg-custom-bg-container5-seven-descktop bg-center bg-cover"
+          ></div>
+
+          <div
+            class="w-full md:w-[48%] lg:w-[30%] h-[480px] bg-custom-bg-container6-seven-mobile xl:bg-custom-bg-container6-seven-descktop bg-center bg-cover"
+          ></div>
+
+          <div
+            class="w-full md:w-[48%] lg:w-[30%] h-[480px] bg-custom-bg-container7-seven-mobile xl:bg-custom-bg-container7-seven-descktop bg-center bg-cover"
+          ></div>
+
+          <div
+            class="w-full md:w-[48%] lg:w-[30%] h-[480px] bg-custom-bg-container8-seven-mobile xl:bg-custom-bg-container8-seven-descktop bg-center bg-cover"
+          ></div>
+
+          <div
+            class="w-full md:w-[50%] lg:w-[30%] h-[480px] bg-custom-bg-container9-seven-mobile xl:bg-custom-bg-container9-seven-descktop bg-center bg-cover"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-full flex justify-center items-center bg-[#6D38AD] text-white text-center py-20"
+    >
+      <div class="w-full flex flex-col justify-center items-center gap-8">
+        <h1 class="font-bold text-2xl w-72 md:w-full lg:text-4xl">
+          Onde o consultório está localizado?
+        </h1>
+
+        <div class="w-[200px] lg:w-[400px] h-[2px] bg-white"></div>
+
+        <p class="text-sm w-72 md:w-full lg:text-lg">
+          Praça Getulio Vargas, 122 Centro, Florianópolis - SC, 88020-030
+        </p>
+      </div>
+    </section>
+
+    <section class="w-full overflow-hidden">
+      <div class="w-full overflow-hidden md:hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d884.0003483729427!2d-48.54697183032898!3d-27.593486409952973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527383c8862dd39%3A0xd9ca1494f3f4ed72!2sPra%C3%A7a%20Getulio%20Vargas%2C%20122-266%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088020-030!5e0!3m2!1spt-BR!2sbr!4v1723145006619!5m2!1spt-BR!2sbr"
+          width="767"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="w-full overflow-hidden hidden md:flex lg:hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d884.0003483729427!2d-48.54697183032898!3d-27.593486409952973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527383c8862dd39%3A0xd9ca1494f3f4ed72!2sPra%C3%A7a%20Getulio%20Vargas%2C%20122-266%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088020-030!5e0!3m2!1spt-BR!2sbr!4v1723145006619!5m2!1spt-BR!2sbr"
+          width="1024"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="w-full overflow-hidden hidden lg:flex xl:hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d884.0003483729427!2d-48.54697183032898!3d-27.593486409952973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527383c8862dd39%3A0xd9ca1494f3f4ed72!2sPra%C3%A7a%20Getulio%20Vargas%2C%20122-266%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088020-030!5e0!3m2!1spt-BR!2sbr!4v1723145006619!5m2!1spt-BR!2sbr"
+          width="1290"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="w-full overflow-hidden hidden xl:flex 2xl:hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d884.0003483729427!2d-48.54697183032898!3d-27.593486409952973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527383c8862dd39%3A0xd9ca1494f3f4ed72!2sPra%C3%A7a%20Getulio%20Vargas%2C%20122-266%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088020-030!5e0!3m2!1spt-BR!2sbr!4v1723145006619!5m2!1spt-BR!2sbr"
+          width="1537"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="w-full overflow-hidden hidden 2xl:flex">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d884.0003483729427!2d-48.54697183032898!3d-27.593486409952973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527383c8862dd39%3A0xd9ca1494f3f4ed72!2sPra%C3%A7a%20Getulio%20Vargas%2C%20122-266%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088020-030!5e0!3m2!1spt-BR!2sbr!4v1723145006619!5m2!1spt-BR!2sbr"
+          width="3000"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section
+      class="w-full flex flex-col justify-center items-center p-2 gap-4 py-20 bg-[#BFB500]"
+    >
+      <div>
+        <h1 class="font-bold text-5xl text-[#6D38AD] uppercase italic">
+          perguntas<br />
+          <span class="font-normal">frequentes</span>
+        </h1>
+      </div>
+
+      <div class="container w-full acordeao md:w-[700px]">
+        <div class="item-acordeao">
+          <div class="cabecalho-item p-2">
+            <span>VOCÊ ATENDE POR PLANO DE SAÚDE?</span>
+            <img
+              class="img-seta"
+              src="/src/assets/seta-para-baixo.png"
+              alt="Seta para baixo"
+              style="max-width: 16px; max-height: 16px"
+            />
+          </div>
+          <div class="corpo-item">
+            Não! A dinâmica de meus atendimentos focados em resultados práticos
+            e na atenção máxima às necessidades individuais de cada paciente não
+            cabe na lógica dos atuais atendimentos nutricionais feitos por
+            planos de saúde. Por essa razão, atendo somente por agendamentos
+            particulares. Mas se o seu plano possuir política de reembolso, eu
+            emito recibo para que você possa solicitá-lo junto ao seu convênio.
+          </div>
+        </div>
+
+        <div class="item-acordeao">
+          <div class="cabecalho-item cabecalho-item--reverse p-2">
+            <span>QUAL O TEMPO DE DURAÇÃO DE CADA CONSULTA?</span>
+            <img
+              class="img-seta"
+              src="/src/assets/seta-para-baixo.png"
+              alt="Seta para baixo"
+              style="max-width: 16px; max-height: 16px"
+            />
+          </div>
+          <div class="corpo-item corpo-item--reverse">
+            As consultas duram, em média, de 60 à 90 minutos, depende da
+            complexidade da rotina e do plano alimentar a ser elaborado.
+          </div>
+        </div>
+
+        <div class="item-acordeao">
+          <div class="cabecalho-item p-2">
+            <span
+              >QUANTAS CONSULTAS SÃO NECESSÁRIAS PARA ATINGIR O RESULTADO
+              PRETENDIDO?</span
+            >
+            <img
+              class="img-seta"
+              src="/src/assets/seta-para-baixo.png"
+              alt="Seta para baixo"
+              style="max-width: 16px; max-height: 16px"
+            />
+          </div>
+          <div class="corpo-item">
+            O número de consultas necessárias depende muito das metas do
+            paciente e da execução do seu planejamento. É comum que após atingir
+            um objetivo como a perda de peso, os pacientes queiram traçar novos
+            planos voltados à hipertrofia, condicionamento físico, dentre
+            outros… Então, o número de consultas varia de acordo com a
+            necessidade de cada um.
+          </div>
+        </div>
+
+        <div class="item-acordeao">
+          <div class="cabecalho-item cabecalho-item--reverse p-2">
+            <span
+              >QUAL É O PERÍODO DE TEMPO ACONSELHÁVEL ENTRE UMA CONSULTA E
+              OUTRA?</span
+            >
+            <img
+              class="img-seta"
+              src="/src/assets/seta-para-baixo.png"
+              alt="Seta para baixo"
+              style="max-width: 16px; max-height: 16px"
+            />
+          </div>
+          <div class="corpo-item corpo-item--reverse">
+            De 45 à 60 dias, dependendo do grau de evolução do paciente na
+            execução do seu plano alimentar.
+          </div>
+        </div>
+
+        <div class="item-acordeao">
+          <div class="cabecalho-item p-2">
+            <span>HÁ AVALIAÇÃO FÍSICA NO ATENDIMENTO ONLINE?</span>
+            <img
+              class="img-seta"
+              src="/src/assets/seta-para-baixo.png"
+              alt="Seta para baixo"
+              style="max-width: 16px; max-height: 16px"
+            />
+          </div>
+          <div class="corpo-item">
+            Sim! A consulta online segue a mesma dinâmica que as consultas
+            presenciais. Tomarei todas as informações necessárias com seu apoio,
+            te orientando a como mensurar as principais medidas necessárias no
+            seu acompanhamento. Se você possuir avaliação física realizada por
+            outro profissional, podemos utilizá-la também.
+          </div>
+        </div>
+
+        <div class="item-acordeao">
+          <div class="cabecalho-item cabecalho-item--reverse p-2">
+            <span>QUAL O VALOR DAS CONSULTAS?</span>
+            <img
+              class="img-seta"
+              src="/src/assets/seta-para-baixo.png"
+              alt="Seta para baixo"
+              style="max-width: 16px; max-height: 16px"
+            />
+          </div>
+          <div class="corpo-item corpo-item--reverse">
+            Infelizmente, o Conselho Regional de Nutricionistas não permite que
+            eu divulgue os valores do serviço. Mas é só entrar em contato por
+            qualquer botão dessa página que eu te passo todas essas informações!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="w-full flex h-[100px] justify-center items-center p-12 bg-[#25143A]"
+    >
+      <div class="w-[100px]">
+        <a target="_blank" href="https://maxdesigns.com.br">
+          <img
+            class="w-24 h-20"
+            src="/src//assets/LOGO1-MAX.svg"
+            alt="Logo MaxDesigns"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script src="/src/js/acordeao.js"></script>
   </body>
 </html>
