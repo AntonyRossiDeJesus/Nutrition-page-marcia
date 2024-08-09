@@ -12,15 +12,15 @@ document.addEventListener("DOMContentLoaded", () => {
         el.classList.remove("aberto");
         const elImgSeta = el.querySelector(".img-seta");
         if (elImgSeta) {
-          elImgSeta.src = "/src/assets/seta-para-baixo.png";
+          elImgSeta.src = "src/assets/seta-para-baixo.png";
         }
       });
 
       if (!isOpen) {
         item.classList.add("aberto");
-        imgSeta.src = "/src/assets/seta-para-cima.png";
+        imgSeta.src = "src/assets/seta-para-cima.png";
       } else {
-        imgSeta.src = "/src/assets/seta-para-baixo.png";
+        imgSeta.src = "src/assets/seta-para-baixo.png";
       }
     });
   });
