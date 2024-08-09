@@ -6,7 +6,7 @@
 <div align="center" >
 <h2 align="center" >🖥️ Linguagens-Frameworks-Ferramentas 🖥️</h2>
 </br>
-<img src="https://skillicons.dev/icons?i=html,css,github,git" />
+<img src="https://skillicons.dev/icons?i=html,css,javascript,github,git" />
 </div>
 
 
