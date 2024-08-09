@@ -994,8 +994,20 @@ video {
   width: 100%;
 }
 
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-\[650px\] {
+  width: 650px;
+}
+
 .max-w-56 {
   max-width: 14rem;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
 }
 
 .flex-shrink {
@@ -2039,6 +2051,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#000\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-container-hero {
@@ -3129,6 +3146,10 @@ body {
     width: 100%;
   }
 
+  .md\:w-\[650px\] {
+    width: 650px;
+  }
+
   .md\:max-w-\[60px\] {
     max-width: 60px;
   }
@@ -3251,6 +3272,10 @@ body {
     width: 500px;
   }
 
+  .lg\:w-\[750px\] {
+    width: 750px;
+  }
+
   .lg\:max-w-\[1000px\] {
     max-width: 1000px;
   }
@@ -3307,6 +3332,11 @@ body {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -3352,6 +3382,16 @@ body {
 
   .xl\:bg-custom-bg-container9-seven-descktop {
     background-image: url('./assets/img9-consultorio-desktop.webp');
+  }
+
+  .xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
