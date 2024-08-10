@@ -6,17 +6,6 @@ body {
   font-family: "Anybody", Sans-serif;
 }
 
-.button-primary {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  padding: 20px 48px;
-  border-radius: 16px;
-  background-color: #beb500;
-  color: white;
-}
-
 .opacity-transition {
   transition: opacity 0.5s ease, filter 0.5s ease;
 }
