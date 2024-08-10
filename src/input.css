@@ -6,6 +6,66 @@ body {
   font-family: "Anybody", Sans-serif;
 }
 
+.opacity-transition {
+  transition: opacity 0.5s ease, filter 0.5s ease;
+}
+
+.blurred {
+  opacity: 0;
+  transform: translateY(-50px) scale(1.2);
+  filter: blur(10px);
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+@keyframes seta-sec-two {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.seta-sec-two {
+  animation: seta-sec-two 1.5s infinite ease-in-out;
+}
+
+@layer components {
+  .entradaesquerda {
+    @apply opacity-0 blur-lg transform translate-y-0 -translate-x-[200px] scale-100 rotate-45 transition-all ease-in duration-700;
+  }
+
+  .entradadireita {
+    @apply opacity-0 blur-lg transform translate-y-0 translate-x-[200px] scale-100 -rotate-45 transition-all ease-in duration-700;
+  }
+
+  .entradacima {
+    @apply opacity-0 blur-lg transform translate-y-[50px] translate-x-0 scale-100 rotate-0 transition-all ease-in duration-700;
+  }
+
+  .entradabaixo {
+    @apply opacity-0 blur-lg transform -translate-y-[50px] translate-x-0 scale-100 rotate-0 transition-all ease-in duration-700;
+  }
+
+  .entradacomdesfoqueezoomaumentando {
+    @apply opacity-0 blur-lg transform translate-y-0 translate-x-0 scale-0 rotate-0 transition-all ease-in duration-700;
+  }
+
+  .entradacomdesfoqueezoomdiminuindo {
+    @apply opacity-0 blur-[18px] transform translate-y-0 translate-x-0 scale-150 rotate-0 transition-all ease-in duration-700;
+  }
+
+  .exibir {
+    @apply opacity-100 blur-0 transform translate-y-0 translate-x-0 scale-100 rotate-0 transition-all ease-in duration-700;
+  }
+}
+
 .clip-path-custom {
   clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%);
 }
