@@ -4,7 +4,17 @@
 
 body {
   font-family: "Anybody", Sans-serif;
-  overflow: hidden;
+}
+
+.button-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 48px;
+  border-radius: 16px;
+  background-color: #beb500;
+  color: white;
 }
 
 .opacity-transition {
@@ -126,27 +136,16 @@ body {
   color: black;
 }
 
-.cabecalho-item::after {
-  content: "\2bc6";
-  display: none;
-  color: white;
-}
-
-.aberto .cabecalho-item::after {
-  content: "\2bc5";
-  display: none;
-}
-
 .corpo-item {
   display: none;
-  padding: 2.4rem 3.2rem;
+  padding: 16px 16px;
   color: white;
   background: linear-gradient(to right, #6d38ad, #39030300);
 }
 
 .corpo-item--reverse {
   display: none;
-  padding: 2.4rem 3.2rem;
+  padding: 16px 16px;
   color: white;
   background: linear-gradient(to left, #6d38ad, #39030300) !important;
 }
