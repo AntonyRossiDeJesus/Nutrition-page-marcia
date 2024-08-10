@@ -4,6 +4,7 @@
 
 body {
   font-family: "Anybody", Sans-serif;
+  overflow: hidden;
 }
 
 .opacity-transition {
