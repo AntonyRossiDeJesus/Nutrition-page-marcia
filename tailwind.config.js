@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: ["./index.html", "./**/*.{html,js}"],
   theme: {
     extend: {
       backgroundImage: {
@@ -77,5 +77,19 @@ module.exports = {
       borderRadius: {},
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const novaUtilsButton = {
+        ".custom-button-test": {
+          padding: "1.5rem",
+          borderRadius: "0.5rem",
+          backgroundColor: "#f2f2f2",
+          boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+          border: "1px solid #e5e7eb",
+        },
+      };
+
+      addUtilities(novaUtilsButton);
+    },
+  ],
 };
