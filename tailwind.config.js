@@ -58,10 +58,13 @@ module.exports = {
           "url('./assets/img9-consultorio-desktop.webp')",
 
         "custom-icon-whatsap": "url('./assets/icone-whatsapp-branco.svg')",
+        "custom-icon-joinha": "url('./assets/icone-joinha.svg')",
         "container-hero":
           "radial-gradient(at top left, #D2ADFF40 0%, #D2ADFF10 75%)",
         "custom-gradient-sec-two-icon":
           "linear-gradient(to bottom, #AEA600, #635E00)",
+
+        "button-rodape2": "linear-gradient(to bottom, #BEB500, #e2d806)",
       },
 
       colors: {
@@ -71,6 +74,14 @@ module.exports = {
 
       boxShadow: {
         "custom-button-hero-shadown": "0px 0px 37px 0px #BEB500",
+
+        "button-rodape":
+          "0px 5px 0px 0px #635E00, 0px 20px 20px -10px rgba(0, 0, 0, 0.2)",
+        inset: "0px 0px 20px 2px #635E00",
+      },
+
+      borderRadius: {
+        "button-rodape-radius": "7% 7% 7% 7% / 100% 100% 100% 100%",
       },
     },
   },

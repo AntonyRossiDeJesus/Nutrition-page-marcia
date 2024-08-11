@@ -162,3 +162,31 @@ body {
 
 scrollbar-width: thin;
 scrollbar-color: #773eba #2b2037;
+
+.button-effects {
+  border-radius: 7% 7% 7% 7% / 100% 100% 100% 100%;
+}
+
+.button-effects:hover {
+  box-shadow: 0px 5px 0px 0px #635e00, 0px 25px 25px 25px rgba(0, 0, 0, 0.2),
+    inset 0px 0px 50px 2px #beb500;
+  background: linear-gradient(to bottom, #beb500, #919191);
+  border-radius: 7% 7% 7% 7% / 100% 100% 100% 100%;
+}
+
+.button-effects:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #635e00, 0px 20px 20px -10px rgba(0, 0, 0, 0.2),
+    inset 0px 0px 20px 2px #beb500;
+  background: linear-gradient(to bottom, #beb500, #919191);
+  border-radius: 7% 7% 7% 7% / 100% 100% 100% 100%;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

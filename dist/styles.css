@@ -679,6 +679,10 @@ video {
   isolation: auto;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -882,6 +886,10 @@ video {
   height: 1rem;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -898,10 +906,6 @@ video {
   height: 1000px;
 }
 
-.h-\[100px\] {
-  height: 100px;
-}
-
 .h-\[25px\] {
   height: 25px;
 }
@@ -912,6 +916,10 @@ video {
 
 .h-\[380px\] {
   height: 380px;
+}
+
+.h-\[40px\] {
+  height: 40px;
 }
 
 .h-\[430px\] {
@@ -936,6 +944,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.max-h-\[150px\] {
+  max-height: 150px;
 }
 
 .max-h-\[430px\] {
@@ -1556,6 +1568,14 @@ video {
   justify-items: stretch;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-14 {
   gap: 3.5rem;
 }
@@ -1892,6 +1912,10 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-button-rodape-radius {
+  border-radius: 7% 7% 7% 7% / 100% 100% 100% 100%;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -2081,6 +2105,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-button-rodape2 {
+  background-image: linear-gradient(to bottom, #BEB500, #e2d806);
+}
+
 .bg-container-hero {
   background-image: radial-gradient(at top left, #D2ADFF40 0%, #D2ADFF10 75%);
 }
@@ -2155,6 +2183,10 @@ video {
 
 .bg-custom-gradient-sec-two-icon {
   background-image: linear-gradient(to bottom, #AEA600, #635E00);
+}
+
+.bg-custom-icon-joinha {
+  background-image: url('./assets/icone-joinha.svg');
 }
 
 .bg-custom-icon-whatsap {
@@ -2297,10 +2329,6 @@ video {
 
 .p-1 {
   padding: 0.25rem;
-}
-
-.p-12 {
-  padding: 3rem;
 }
 
 .p-2 {
@@ -2572,6 +2600,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-zinc-700 {
+  --tw-text-opacity: 1;
+  color: rgb(63 63 70 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -2767,6 +2800,12 @@ video {
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-button-rodape {
+  --tw-shadow: 0px 5px 0px 0px #635E00, 0px 20px 20px -10px rgba(0, 0, 0, 0.2);
+  --tw-shadow-colored: 0px 5px 0px 0px var(--tw-shadow-color), 0px 20px 20px -10px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 

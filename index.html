@@ -20,6 +20,7 @@
     <main class="overflow-x-hidden">
       <section
         class="relative flex w-full h-[1000px] lg:h-[1080px] justify-center md:justify-end lg:justify-center items-end lg:items-center bg-custom-bg-hero-mobile bg-cover bg-center p-4 pb-24 md:bg-custom-bg-hero-descktop md:bg-right lg:bg-center"
+        id="secao-hero"
       >
         <div
           class="container flex justify-center md:justify-end items-center lg:justify-start"
@@ -1341,16 +1342,26 @@
     </main>
 
     <footer
-      class="w-full flex h-[100px] justify-center items-center p-12 bg-[#25143A]"
+      class="w-full flex flex-col max-h-[150px] justify-center items-center bg-[#25143A]"
     >
-      <div class="w-[100px]">
-        <a target="_blank" href="https://maxdesigns.com.br">
-          <img
-            class="w-24 h-20"
-            src="src//assets/LOGO1-MAX.svg"
-            alt="Logo MaxDesigns"
-          />
+      <div class="flex justify-center items-center gap-10">
+        <a class="text-zinc-700 font-bold" href="#secao-hero">
+          <button
+            class="flex justify-center items-center gap-1 button-effects rounded-button-rodape-radius shadow-button-rodape bg-button-rodape2 w-[200px] h-[40px] z-10"
+          >
+            <i class="bg-custom-icon-joinha bg-cover bg-center w-4 h-5"></i>
+            VOLTAR AO TOPO
+          </button>
         </a>
+        <div class="w-[100px]">
+          <a target="_blank" href="https://maxdesigns.com.br">
+            <img
+              class="w-24 h-20"
+              src="src/assets/LOGO1-MAX.svg"
+              alt="Logo MaxDesigns"
+            />
+          </a>
+        </div>
       </div>
     </footer>
 

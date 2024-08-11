@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const scaleValue = 1.2 - scrollProgress * 0.2;
     const translateYValue = (1 - scrollProgress) * 50;
-    const blurValue = 10 - scrollProgress * 11;
+    const blurValue = 8 - scrollProgress * 11;
     const opacityValue = scrollProgress;
 
     section.style.transform = `translateY(${translateYValue}px) scale(${scaleValue})`;
